@@ -1,6 +1,6 @@
 # Simulación del proceso de inscripción de PALPA-GO
 
-Producto Académico N.° 03 — Pruebas y Calidad de Software (Universidad Continental).
+Producto Académico N.° 03 - Pruebas y Calidad de Software (Universidad Continental).
 Barja Rodriguez, Jeanpiere Levi · Cano Carhuayo, Maricarmen Shilene.
 
 Simulación en JavaScript del registro de estudiantes y la inscripción de equipos
