@@ -1,4 +1,4 @@
-// PRUEBAS FUNCIONALES — proceso de registro e inscripción de equipos (CF-01 a CF-10)
+// PRUEBAS FUNCIONALES: proceso de registro e inscripción de equipos (CF-01 a CF-10)
 import { describe, it, expect, beforeEach } from 'vitest';
 import { M } from './modulo.js';
 import { PADRON, ANTES_CIERRE, DESPUES_CIERRE, dbVacia } from './fixtures.js';

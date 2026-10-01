@@ -1,4 +1,4 @@
-// PRUEBAS UNITARIAS — función validarDNI (U-01 a U-06)
+// PRUEBAS UNITARIAS: función validarDNI (U-01 a U-06)
 import { describe, it, expect } from 'vitest';
 import { M, VERSION } from './modulo.js';
 

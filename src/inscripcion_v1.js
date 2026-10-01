@@ -2,7 +2,7 @@
 
 import { CONFIG } from './config.js';
 
-// VERSIÓN 1 — defecto real H-03
+// VERSIÓN 1: defecto real H-03
 export function validarDNI(dni) {
   const valor = String(dni ?? '').trim();
   if (valor.length !== 8) return { valido: false, mensaje: 'El DNI debe tener 8 caracteres' };
@@ -32,7 +32,7 @@ export function registrarEstudiante(db, { nombre, correo, dni }, padron) {
   return { ok: true, estudiante };
 }
 
-// VERSIÓN 1 — defecto real H-07: no se revisa la hora del servidor
+// VERSIÓN 1: defecto real H-07: no se revisa la hora del servidor
 export function inscribirEquipo(db, equipo, fechaServidor = new Date()) {
   return validarYCrearEquipo(db, equipo, fechaServidor);
 }

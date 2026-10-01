@@ -2,7 +2,7 @@
 
 import { CONFIG } from './config.js';
 
-// VERSIÓN 2 — corrección
+// VERSIÓN 2: corrección
 export function validarDNI(dni) {
   const valor = String(dni ?? '').trim();
   if (/^\d{8}$/.test(valor)) return { valido: true, valor };
@@ -40,7 +40,7 @@ export function registrarEstudiante(db, { nombre, correo, dni }, padron) {
   return { ok: true, estudiante };
 }
 
-// VERSIÓN 2 — el cierre se valida en el servidor
+// VERSIÓN 2: el cierre se valida en el servidor
 export function inscribirEquipo(db, equipo, fechaServidor = new Date()) {
   if (fechaServidor > CONFIG.FECHA_CIERRE)
     return { ok: false, codigo: 'INSCRIPCION_CERRADA',
