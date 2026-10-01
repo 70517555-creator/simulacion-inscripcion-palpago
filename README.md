@@ -29,3 +29,13 @@ npm run test:v1                  # iteración 1: 12 aprobadas, 4 fallidas
 npm run test:v2                  # iteración 2: 16 de 16 aprobadas
 npm run test:v2 -- --coverage    # con reporte de cobertura
 ```
+
+## Evidencias
+
+| Captura | Contenido |
+|---|---|
+| `01` a `03` | PALPA-GO en producción: acceso, panel y laboratorio |
+| `04` a `07` | Firebase Hosting, Firestore, backend en Render y repositorio |
+| `08`, `08b` | Iteración 1 (v1): 4 fallidas, 12 aprobadas |
+| `09` | Iteración 2 (v2): 16 aprobadas |
+| `10`, `11` | Lighthouse en modo móvil (NF-02) |
