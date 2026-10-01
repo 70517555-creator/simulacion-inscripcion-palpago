@@ -1,0 +1,19 @@
+{
+  "name": "simulacion-inscripcion-semana-tecnica",
+  "version": "1.0.0",
+  "description": "Simulación del módulo de inscripción de PALPA-GO: defectos H-03 y H-07 y su corrección",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "npm run test:v2",
+    "test:v1": "cross-env SIM_VERSION=v1 vitest run",
+    "test:v2": "cross-env SIM_VERSION=v2 vitest run"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "@vitest/coverage-v8": "2.1.9",
+    "vitest": "2.1.9"
+  }
+}
